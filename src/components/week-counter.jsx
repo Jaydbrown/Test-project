@@ -15,13 +15,13 @@ function WeekCounter({ currentWeek, onAdvanceWeek, onResetWeek }) {
             onClick={onAdvanceWeek}
             className="bg-black text-white px-6 py-3 font-bold hover:bg-white hover:text-black border-2 border-black"
           >
-            Advance Week
+            Advance Payment Week
           </button>
           <button
             onClick={onResetWeek}
             className="bg-white text-black px-6 py-3 font-bold hover:bg-black hover:text-white border-2 border-black"
           >
-            Reset Week
+            Reset Payment Week
           </button>
         </div>
       </div>

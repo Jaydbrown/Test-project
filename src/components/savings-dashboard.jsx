@@ -13,7 +13,7 @@ function SavingsDashboard({
       </h2>
 
       {studentsCount === 0 ? (
-        <p className="text-black">No students registered yet</p>
+        <p className="text-black">No student has registered yet</p>
       ) : (
         <div className="space-y-4">
           <div className="border-2 border-black p-4 bg-black text-white">

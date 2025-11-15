@@ -1,5 +1,5 @@
 import React from 'react';
-import MemberCard from './MemberCard';
+import MemberCard from './member-card';
 
 function MembersList({ students, calculateStudentTotal, onWithdraw }) {
   if (students.length === 0) return null;
